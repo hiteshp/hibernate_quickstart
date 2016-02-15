@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="hibernate.core.quickstart.Customer" table="customer"
+           catalog="customerdb">
+        <id name="customerId" type="java.lang.Integer">
+            <column name="customerId"/>
+            <generator class="identity"/>
+        </id>
+
+        <property name="customerName" type="java.lang.String">
+            <column name="customerName" length="50"/>
+        </property>
+
+        <property name="customerEmail" type="java.lang.String">
+            <column name="customerEmail" length="60"/>
+        </property>
+
+        <property name="customerPhone" type="java.lang.Long">
+            <column name="customerPhone" length="15"/>
+        </property>
+    </class>
+</hibernate-mapping>

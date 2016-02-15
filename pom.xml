@@ -9,6 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>hibernate_core</module>
+    </modules>
+
     <!--version management -->
     <properties>
         <logback.version>1.0.13</logback.version>
