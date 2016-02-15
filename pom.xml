@@ -12,6 +12,7 @@
     <modules>
         <module>hibernate_core</module>
         <module>hibernate_jpa</module>
+        <module>hibernate_jpa_spring</module>
     </modules>
 
     <!--version management -->
