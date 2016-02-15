@@ -11,6 +11,7 @@
 
     <modules>
         <module>hibernate_core</module>
+        <module>hibernate_jpa</module>
     </modules>
 
     <!--version management -->
